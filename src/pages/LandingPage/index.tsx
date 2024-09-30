@@ -8,7 +8,7 @@ import Testimony from "../../components/Testimony";
 import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
 import { MenuProvider } from "../../context/MenuContext";
-
+import BurgerButton from "../../components/BurgerButton"
 const LandingPage: FC = () => {
   return (
     <>
@@ -16,7 +16,10 @@ const LandingPage: FC = () => {
         <div>
           <Header />
           <Menu menuProviderPresent={true} />
-          <Hero />
+          <section id="hero-section">
+            <Hero />
+          </section>
+          <BurgerButton menuProviderPresent={true}/>
           <About />
           <RecentWork />
           <Gallery />
