@@ -3,7 +3,7 @@ import SquareImage from "./Square";
 import { imageLinks } from "../../data/imageList";
 
 const index: FC = () => {
-  console.log(JSON.stringify(imageLinks, null, 2));
+//   console.log(JSON.stringify(imageLinks, null, 2));
   return (
     <>
       <div className="shrink-0 overflow-x-scroll mt-20 w-[100vw] ">

@@ -1,10 +1,20 @@
 import { FC } from "react";
+import { useMenu } from "../../context/MenuContext";
 
-const index: FC = () => {
+
+interface MenuComponentProps {
+    menuProviderPresent: true;
+  }
+
+const index: FC<MenuComponentProps> = () => {
+    const {isMenuVisible, toggleMenu} =useMenu();
+    if(!isMenuVisible) return null;
   return (
-    <div>
-      <div className="w-[50vw] h-[100vh] absolute z-20 left-1/2 bg-black">
+    <div className="bg-black bg-opacity-60 absolute z-30 w-screen h-screen">
+      <div className="w-[50vw] h-[100vh] z-20 absolute left-1/2 bg-black">
         <div className="absolute right-0 translate-x-[-30%] pt-16">
+          <button onClick={toggleMenu}>
+
           <svg
             width="80"
             height="80"
@@ -38,6 +48,7 @@ const index: FC = () => {
               stroke-width="2"
             />
           </svg>
+          </button>
         </div>
         <div className="text-white grid text-5xl space-y-7 py-32 pl-16">
           <a>Home</a>
