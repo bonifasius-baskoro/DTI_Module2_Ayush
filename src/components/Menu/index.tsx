@@ -10,7 +10,7 @@ const index: FC<MenuComponentProps> = () => {
     const {isMenuVisible, toggleMenu} =useMenu();
     if(!isMenuVisible) return null;
   return (
-    <div className="bg-black bg-opacity-60 absolute z-30 w-screen h-screen">
+    <div className="fixed bg-black bg-opacity-60  z-30 w-screen h-screen">
       <div className="w-[50vw] h-[100vh] z-20 absolute left-1/2 bg-black">
         <div className="absolute right-0 translate-x-[-30%] pt-16">
           <button onClick={toggleMenu}>

@@ -22,7 +22,7 @@ const Burger: FC<MenuComponentProps> = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div className={`fixed top-0  translate-y-4 -translate-x-6 w-[80px] h-[80px] right-0 z-50 ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+    <div className={`fixed top-0  translate-y-4 -translate-x-[40px] w-[80px] h-[80px] right-0 z-50 ${isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
       <button onClick={toggleMenu}>
         <img src={Button} />
       </button>
