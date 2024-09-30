@@ -6,12 +6,14 @@ import RecentWork from "../../components/RecentWork"
 import Gallery from "../../components/Gallery"
 import Testimony from "../../components/Testimony"
 import Footer from "../../components/Footer"
+import Menu from "../../components/Menu"
 
 
 const LandingPage:FC = () => {
   return (
     <>
     <Header/>
+    <Menu/>
     <Hero/>
     <About/>
     <RecentWork/>

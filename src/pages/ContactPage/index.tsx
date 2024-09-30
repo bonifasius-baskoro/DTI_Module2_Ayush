@@ -39,33 +39,33 @@ const ContactPage: FC = () => {
               <form className="block mt-8">
                 <label className="text-lg mb-3 mt-8">Name</label>
                 <input
-                  className="min-w-[100%] text-2xl h-[38px]"
+                  className="min-w-[100%] text-2xl h-[38px] mb-6 mt-3 pb-4 border-b-[0.5px] border-gray-600"
                   type="text"
                   name="name"
                   placeholder="James Riyadi"
                 />
                 <label className="text-lg mb-3 mt-8 w-[624px] ">Email</label>
                 <input
-                  className="min-w-[100%] text-2xl h-[38px]"
+                  className="min-w-[100%] text-2xl h-[38px] mb-6 border-b-[0.5px] border-gray-600 pb-4 mt-3"
                   type="text"
                   id="email"
                   placeholder="jamesriyadi@aswewe.com"
                 />
                 <label className="text-lg mb-3 mt-12">Subject</label>
                 <input
-                  className="min-w-[100%] text-2xl h-[38px]"
+                  className="min-w-[100%] text-2xl h-[38px]  mb-6 mt-3 pb-4 border-b-[0.5px] border-gray-600"
                   type="text"
                   id="subject"
                   placeholder="James Riyadi"
                 />
                 <label className="text-lg mb-3 mt-8">Message</label>
                 <input
-                  className="min-w-[100%] text-2xl w-[624px] h-[158px] "
+                  className="min-w-[100%] text-2xl w-[624px] h-[158px] mb-8 border-b-[0.5px] border-gray-600 "
                   type="message"
                   placeholder="Type your message"
                 />
                 <input
-                  className="bg-black text-white w-[193px] h-[70px] rounded-full text-lg "
+                  className="bg-black text-white w-[193px] h-[70px] rounded-full text-lg   "
                   type="submit"
                   value="Submit"
                 />

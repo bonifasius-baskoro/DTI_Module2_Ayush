@@ -4,7 +4,7 @@ import './style.css';
 
 const Index:FC = () => {
   return (
-    <header className="absolute z-2 py-[26px] px-20 text-[28px] font-inter w-[calc(100%-0.2vw)] top-0 left-0">
+    <header className="absolute z-10 py-[26px] px-20 text-[28px] font-inter w-[calc(100vw-0.2vw)] top-0 left-0">
       <nav className='flex justify-between w-full'>
         <div>
           @Ayush Barnwal
@@ -12,7 +12,7 @@ const Index:FC = () => {
         <div className="flex justify-between gap-9 w-auto ">
           <a href="/public">About</a>
           <a href="#work">Work</a>
-          <a href="/contact-us">Contact</a>
+          <a href="/contact">Contact</a>
         </div>
       </nav>
     </header>
