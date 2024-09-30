@@ -1,0 +1,18 @@
+.buttonContainer{
+    border: solid #000;
+    border-width: 1px 1px;
+    border-radius: 100%;    
+    /* background-color: black; */
+}
+
+.buttonContainer:hover{
+    border: solid #000;
+    border-width: 1px 1px;
+    border-radius: 100%;    
+    /* background-color: black; */
+}
+
+a img{
+    color:white;
+    width: 82.5px;
+}

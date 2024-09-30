@@ -1,0 +1,27 @@
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 160px);
+    padding: 26px 80px;
+    z-index: 2;
+    font-family: "Neue Montreal";
+}
+
+.nav-container nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}

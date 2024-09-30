@@ -1,0 +1,26 @@
+.workItem-container{
+    display:flex;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+    margin-right: 80px;
+    gap:50px;
+    border: solid gray;
+    border-width: 0px 0px 1px 0px; 
+    border-bottom-style: solid;  ;
+    
+}
+
+.work-title{
+    position: relative;
+    font-family: "Inter";   
+    font-size: 60px;
+    margin-bottom: 18px;
+    left:0;
+}
+
+.button-container{
+    position: absolute;
+    right:5vw;
+}
+

@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+  @font-face {
+    font-family: "Neue-Montreal";
+    src: url("/fonts/NeueMontreal-Medium.otf") format('otf');
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: "Neue Montreal";
+    src: url("/fonts/NeueMontreal-Regular.otf") format('otf');
+    font-weight: 400;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
