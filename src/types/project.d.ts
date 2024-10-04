@@ -14,3 +14,11 @@ type TestimonyProps ={
     role:string;
     className?: string;
 }
+
+
+type formSubmission=  { 
+  name:string,
+  email:string,
+  subject:string,
+  message:string
+}

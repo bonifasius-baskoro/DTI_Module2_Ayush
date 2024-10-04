@@ -4,6 +4,7 @@ import {
 } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import ContactPage from "./pages/ContactPage";
+import InternalPage from "./pages/Internal"
 function App() {
   
 
@@ -11,6 +12,7 @@ function App() {
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="/table" element={<InternalPage />} />
     </Routes>
   )
 }
